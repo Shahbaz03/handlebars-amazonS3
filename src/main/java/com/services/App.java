@@ -27,7 +27,7 @@ import com.github.jknack.handlebars.Template;
  */
 public class App {
 	/**
-	 * intialize the AWS credentials with the access-key and the secret-key
+	 * Intialize the AWS credentials with the access-key and the secret-key
 	 */
 	private static  AWSCredentials AWS_CREDENTIALS = new BasicAWSCredentials("AWS_ACCESS_KEY",
 		      "AWS_SECRET_KEY");
