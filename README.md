@@ -13,29 +13,6 @@ In this example, I am fetching the templates from amazon s3 bucket since storing
 
 You need to have the following in your pom.xml ;
 
-The aws java sdk for integrating with Amazon S3 Bucket
-
-<dependency>
-        <groupId>com.amazonaws</groupId>
-        <artifactId>aws-java-sdk</artifactId>       
-        <version>1.9.3</version>
- </dependency>
- 
-The handlebars java dependency
- 
- <dependency>
-        <groupId>com.github.jknack</groupId>
-        <artifactId>handlebars</artifactId>
-        <version>4.0.4</version>
- </dependency>
- 
- 
-The commons.io for basic IO operations
- 
- <dependency>
-        <groupId>commons-io</groupId>
-        <artifactId>commons-io</artifactId>
-        <version>2.4</version>
- </dependency>
- 
- 
+1. aws-java-sdk - The aws java sdk for integrating with Amazon S3 Bucket
+2. handlebars - The handlebars java dependency
+3. commons.io - The commons.io for basic IO operations
