@@ -1,0 +1,17 @@
+<!--This file will be stored in S3 bucket -->
+<html>
+<head>
+   <meta charset="utf-8">
+</head>
+<body>
+  <h3>Hi {{user}},</h3>
+  <h4>Your age is {{age}} years</h4>
+  <h4>You are 
+  {{#ifCond age}}
+    an adult.
+  {{else}}
+    not an adult.
+  {{/ifCond}}</h4>
+  <h4>You are {{checkGender gender}}</h4>
+</body>
+</html>

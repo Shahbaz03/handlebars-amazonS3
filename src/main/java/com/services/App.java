@@ -79,6 +79,7 @@ public class App {
 		Map<String, Object> dataMap = new HashMap<String, Object>();
 		dataMap.put("name", "Spartan");
 		dataMap.put("age", 25);
+		dataMap.put("gender", "M");
 		
 		
 		try{
